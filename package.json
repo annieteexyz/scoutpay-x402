@@ -1,0 +1,26 @@
+{
+  "name": "scoutpay-x402",
+  "version": "1.0.0",
+  "description": "A bot that hires a2a.family agents and pays for services over x402 on Robinhood Chain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annieteexyz/scoutpay-x402.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/annieteexyz/scoutpay-x402/issues"
+  },
+  "homepage": "https://github.com/annieteexyz/scoutpay-x402#readme",
+  "dependencies": {
+    "dotenv": "^18.0.7",
+    "viem": "^2.57.4"
+  }
+}
