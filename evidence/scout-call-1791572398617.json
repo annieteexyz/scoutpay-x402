@@ -1,0 +1,35 @@
+{
+  "project": "ScoutPay",
+  "agent": "Scout",
+  "skill": "grade_launches",
+  "network": "Robinhood Chain",
+  "chainId": 4663,
+  "wallet": "0x14e16E623DcA188CAdCD1046FFFAe0999bb713F4",
+  "requestedLaunches": 1,
+  "quotedAmount": "0.010000",
+  "token": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+  "recipient": "0x0a64498810C29C3Ac3b9557940b70A095dc745D9",
+  "httpStatus": 200,
+  "transactionHash": "0x6b4f7db441f58e9aa771f4ae519b80f41fe01b82d69e17a8776a6705f9c8b93a",
+  "response": {
+    "rule": "grade by bonding-curve progress: A >= 50% or graduated, B >= 20%, C >= 5%, else D",
+    "head": 84386801,
+    "launches": [
+      {
+        "token": "0x1Bf2733ead7d238d5AAaF2CD5d167d9033740cEB",
+        "curve": "0xeF2C3D35577C9F529072D27df00A7668A38E5B1C",
+        "deployer": "0x159e3674669B417bcE2C49801d5CcB157ED4DAE6",
+        "name": "kai cenat",
+        "symbol": "KAICENAT",
+        "pairToken": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+        "ageSec": 59,
+        "progress": 0,
+        "raised": "0",
+        "graduated": false,
+        "grade": "D",
+        "block": 84386238
+      }
+    ]
+  },
+  "timestamp": "2026-10-09T18:59:58.617Z"
+}
